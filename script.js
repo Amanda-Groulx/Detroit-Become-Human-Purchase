@@ -12,7 +12,8 @@ function enterAge () {
   // Decides if the user is old enough to watch a certain movie and places them in an age category to tell them what type of movie they can watch alone.
   if (age >= 14) {
     document.getElementById('text').innerHTML = 'Looks like youre old enough to play this game! Click on the picture to get to the website!'
- }    else if (age >= 0) {
+ }
+ else if (age >= 0) {
     document.getElementById('text').innerHTML = 'Looks like youre not old enough to play this game yet, please look for a different game!'
   }
 }
